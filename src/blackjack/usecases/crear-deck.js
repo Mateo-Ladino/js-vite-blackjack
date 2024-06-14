@@ -7,6 +7,7 @@ import _ from "underscore";
  * @param {Array<string>} tiposEspeciales 
  * @returns {Array}
  */
+//crear funcion
  export const crearDeck = (tiposDeCarta, tiposEspeciales) => {
 
     if(!tiposDeCarta) throw new Error("TiposDeCarta es obligatorio");
